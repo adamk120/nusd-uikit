@@ -1,6 +1,8 @@
 {
   "extends": "@pancakeswap-libs/eslint-config-pancake",
   "rules": {
+    "import/extension": "off",
+    "import/no-unresolved": "off",
     "import/no-extraneous-dependencies": [
       "error",
       {
