@@ -8,7 +8,10 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-uikit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamk120/nusd-uikit.git"
+  },
   "license": "MIT",
   "scripts": {
     "build": "rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
@@ -81,5 +84,10 @@
     "lodash": "^4.17.20",
     "react-transition-group": "^4.4.1",
     "styled-system": "^5.1.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/adamk120/nusd-uikit/issues"
+  },
+  "homepage": "https://github.com/adamk120/nusd-uikit#readme",
+  "author": "AK"
 }
