@@ -50,7 +50,7 @@ export type Colors = {
   textSubtle: string;
   borderColor: string;
   card: string;
-
+  locked: string;
   // Gradients
   gradients: Gradients;
 

@@ -1,5 +1,12 @@
 {
   "extends": "@pancakeswap-libs/eslint-config-pancake",
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
   "rules": {
     "import/extension": "off",
     "import/no-unresolved": "off",
