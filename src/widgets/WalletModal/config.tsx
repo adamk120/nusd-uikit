@@ -27,11 +27,11 @@ const connectors: Config[] = [
   //   icon: TokenPocket,
   //   connectorId: "injected",
   // },
-  // {
-  //   title: "WalletConnect",
-  //   icon: WalletConnect,
-  //   connectorId: "walletconnect",
-  // },
+  {
+    title: "WalletConnect",
+    icon: WalletConnect,
+    connectorId: "walletconnect",
+  },
   // {
   //   title: "Binance Chain Wallet",
   //   icon: BinanceChain,
